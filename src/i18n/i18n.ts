@@ -1,9 +1,9 @@
 import { nextTick } from 'vue';
-import { createI18n, I18n, I18nOptions } from 'vue-i18n';
+import { createI18n, type I18n, type I18nOptions } from 'vue-i18n';
 
 export const LOCALES: string[] = [];
-export const SUPPORT_LOCALES = ['es'];
-export const defaultLocale = 'es';
+export const SUPPORT_LOCALES = ['es', 'en'];
+export const defaultLocale = 'en';
 
 export function setupI18n(options: I18nOptions) {
   const i18n = createI18n(options) as I18n;

@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>Holis</h1>
-  </div>
+  <router-view />
 </template>
 
 <script setup lang="ts">

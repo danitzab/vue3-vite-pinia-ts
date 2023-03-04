@@ -1,23 +1,11 @@
-import buttons from './es/buttons';
-import components from './es/components';
-import errors from './es/errors';
-import labels from './es/labels';
-import layouts from './es/layouts';
-import messages from './es/messages';
-import validators from './es/validators';
 import views from './es/views';
 
 // Modules
+import common from '@/modules/common/i18n/es';
 
 export default {
-  buttons,
-  components,
-  errors,
   modules: {
+    common,
   },
-  messages,
-  labels,
-  layouts,
-  validators,
   views,
 };

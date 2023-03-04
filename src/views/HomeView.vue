@@ -1,9 +1,5 @@
 <template>
-    <div>
-
-    </div>
+  <h1>Hello world</h1>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
